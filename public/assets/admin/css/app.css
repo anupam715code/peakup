@@ -1,0 +1,208 @@
+/*
+* Author: Shachish
+* Application CSS
+*/
+
+/* Admin */
+.m-login.m-login--1 .m-login__wrapper .m-login__form .m-form__group .form-control { padding: 1rem; }
+.m-login.m-login--1 .m-login__aside { padding: 1rem 11rem; }
+
+
+.add-more-div{background: #f1f1f1; padding: 20px; margin-bottom: 20px; width: 100%; }
+
+.fc-unthemed .fc-event.fc-start.m-fc-event--pink .fc-content:before, .fc-unthemed .fc-list-item.m-fc-event--pink .fc-event-dot, .fc-unthemed .fc-event-dot.fc-start.m-fc-event--pink .fc-content:before{
+    background: #ff69b4;
+    
+}
+.fc-unthemed .fc-event.fc-start.m-fc-event--red .fc-content:before, .fc-unthemed .fc-list-item.m-fc-event--red .fc-event-dot, .fc-unthemed .fc-event-dot.fc-start.m-fc-event--red .fc-content:before{
+    
+    background:#FF0000;
+}
+
+.fc-unthemed .fc-event.fc-start.m-fc-event--brown .fc-content:before, .fc-unthemed .fc-list-item.m-fc-event--brown .fc-event-dot, .fc-unthemed .fc-event-dot.fc-start.m-fc-event--brown .fc-content:before{
+    background: #F4A460;
+    
+}
+
+.fc-unthemed .fc-event.fc-start.m-fc-event--blue .fc-content:before, .fc-unthemed .fc-list-item.m-fc-event--blue .fc-event-dot, .fc-unthemed .fc-event-dot.fc-start.m-fc-event--blue .fc-content:before{
+    background: #0000FF;
+}
+
+.fc-unthemed .fc-event.fc-start.m-fc-event--yellow .fc-content:before, .fc-unthemed .fc-list-item.m-fc-event--yellow .fc-event-dot, .fc-unthemed .fc-event-dot.fc-start.m-fc-event--yellow .fc-content:before{
+    background: #ffff00;
+}
+
+.fc-unthemed .fc-event.fc-start.m-fc-event--green .fc-content:before, .fc-unthemed .fc-list-item.m-fc-event--green .fc-event-dot, .fc-unthemed .fc-event-dot.fc-start.m-fc-event--green .fc-content:before{
+    background: #00FF00;
+}
+
+.fc-unthemed .fc-event.fc-start.m-fc-event--orange .fc-content:before, .fc-unthemed .fc-list-item.m-fc-event--orange .fc-event-dot, .fc-unthemed .fc-event-dot.fc-start.m-fc-event--orange .fc-content:before{
+    background: #FFA500;
+}
+
+.fc-unthemed .fc-event.fc-start.m-fc-event--silver .fc-content:before, .fc-unthemed .fc-list-item.m-fc-event--silver .fc-event-dot, .fc-unthemed .fc-event-dot.fc-start.m-fc-event--silver .fc-content:before{
+    background: #C0C0C0;
+}
+
+.fc-unthemed .fc-event.fc-start.m-fc-event--teal .fc-content:before, .fc-unthemed .fc-list-item.m-fc-event--teal .fc-event-dot, .fc-unthemed .fc-event-dot.fc-start.m-fc-event--teal .fc-content:before{
+    background: #008080;
+    
+}
+.fc-unthemed .fc-event.fc-start.m-fc-event--navy .fc-content:before, .fc-unthemed .fc-list-item.m-fc-event--navy .fc-event-dot, .fc-unthemed .fc-event-dot.fc-start.m-fc-event--navy .fc-content:before{
+    background: #000080;
+    
+}
+.fc-unthemed .fc-event.fc-start.m-fc-event--purple .fc-content:before, .fc-unthemed .fc-list-item.m-fc-event--purple .fc-event-dot, .fc-unthemed .fc-event-dot.fc-start.m-fc-event--purple .fc-content:before{
+    background: #800080;
+    
+    
+}
+
+#container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+#container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+#container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+#container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+#container input:checked ~ .checkmark:after {
+    display: block;
+}
+/* Style the checkmark/indicator */
+#container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/*css for dropdown color in ticket*/
+
+body{margin-top:20px;}
+._select_color{
+    /*font-size: 20px;*/
+    padding: 10px 12px;
+    font-weight: 300;
+    /*line-height: 28px;*/
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    -webkit-appearance: none;
+    /*width: 100%;*/
+    height: auto;
+    box-shadow: none;
+        text-align: left;
+    background-image: none;
+    color: #796652;
+    background: white;
+}
+.width100{ width: 100%; }
+.widthRadio{ width: 40px;  }
+._select_color_drop {
+    margin: 0;
+    padding: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    top: 99%;
+    border-top: 0;
+    /*width: 100%;*/
+}
+._select_color_drop > li {
+    display: inline-block;
+    padding: 7px;
+    border-right: 1px solid rgba(192, 192, 192, 0.55);
+    cursor: pointer;
+    float: left;
+}
+._select_color_drop > li > .color,.btn > span.color{
+    width: 16px;
+    height: 14px;
+    border-radius: 4px;
+    float: left;
+}
+.btn > span.color{margin-right:10px}
+.btn .caret{
+    float: right;
+    border-top: 7px solid;
+    font-size: 28px;
+    padding-top: 5px;
+    vertical-align: middle;
+    position: absolute;
+    right: 20px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    top: 20px;    
+}
+._select_color_drop > li > .red ,.btn._select_color > span.red{background-color: red;}
+._select_color_drop > li > .green ,.btn._select_color > span.green{background-color: green;}
+._select_color_drop > li > .yellow ,.btn._select_color > span.yellow{background-color: yellow;}
+._select_color_drop > li > .brown ,.btn._select_color > span.brown{background-color: brown;}
+._select_color_drop > li > .orange ,.btn._select_color > span.orange{background-color: orange;}
+._select_color_drop > li > .pink ,.btn._select_color > span.pink{background-color: pink;}
+._select_color_drop > li > .silver ,.btn._select_color > span.silver{background-color: silver;}
+._select_color_drop > li > .blue ,.btn._select_color > span.blue{background-color: blue;}
+._select_color_drop > li > .TEAL ,.btn._select_color > span.TEAL{background-color: #008080;}
+._select_color_drop > li > .NAVY ,.btn._select_color > span.NAVY{background-color: #000080;}
+._select_color_drop > li > .PURPLE ,.btn._select_color > span.PURPLE{background-color: #800080;}
+._select_color_drop > li > .OLIVE ,.btn._select_color > span.OLIVE{background-color: #808000;}
+._select_color_drop > li > .LIME ,.btn._select_color > span.LIME{background-color: #00FF00;}
+
+.get-logo
+{
+	text-align: center;
+    color: #5092d8;
+    font-size: 53px;
+    font-weight: 600;
+    /* border-radius: 16px; */
+    border: 0px solid #333;
+    background-color: #383734c4;
+    box-shadow: #23233a 7px 8px 22px 20px;
+}
+}
